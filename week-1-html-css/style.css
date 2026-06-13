@@ -1,1 +1,100 @@
+/* --- Box Model & Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- Flexbox --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* --- Box Model (Margin & Padding) --- */
+.hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ecf0f1;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.projects-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* --- CSS Grid --- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* --- Positioning --- */
+.relative-container {
+    position: relative;
+}
+
+.absolute-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* --- Footer --- */
+.footer-layout {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 3rem;
+}
 
