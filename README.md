@@ -7,7 +7,7 @@ Welcome to my central repository for the Pathment internship. This workspace tra
 To maintain a clean and scalable codebase, all assignments are organized into dedicated weekly folders. Each folder contains the specific source code, assets, and documentation required for that week's task.
 
 * 📁 **`week-1-html-css/`** — Static responsive portfolio layout using semantic HTML, Flexbox, and CSS Grid.
-* 📁 **`week-2-[Topic]/`** — *(Upcoming task)*
+* 📁 **`week-2-js-fundamentals/`** — *(Upcoming task)*
 * 📁 **`week-3-[Topic]/`** — *(Upcoming task)*
 
 *Note: Direct links to specific weekly folders are provided for individual assignment submissions.*
