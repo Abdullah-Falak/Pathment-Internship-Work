@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals | Cyber-Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="glow-text">
+        <h1>JavaScript Fundamentals</h1>
+        <p>Scope, DOM, Events & Promises</p>
+    </header>
+
+    <main class="container">
+        <section class="glass-panel" id="demo-1">
+            <h2>01. Scope & Closures</h2>
+            <div class="counter-display">
+                <h3 id="count-display">0</h3>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-danger" id="btn-decrease">Initialize (-)</button>
+                <button class="btn btn-success" id="btn-increase">Initialize (+)</button>
+            </div>
+        </section>
+
+        <section class="glass-panel" id="demo-2">
+            <h2>02. Dynamic DOM</h2>
+            <div class="input-group">
+                <input type="text" id="todo-input" placeholder="Execute new task...">
+                <button class="btn btn-primary" id="btn-add-todo">Add Task</button>
+            </div>
+            <ul id="todo-list" class="task-list"></ul>
+        </section>
+
+        <section class="glass-panel" id="demo-3">
+            <h2>03. Async Promises</h2>
+            <button class="btn btn-warning" id="btn-load-quiz">Fetch Secure Data</button>
+            <p id="quiz-status" class="status-text"></p>
+            <div id="quiz-container" class="hidden quiz-box">
+                <h4 id="question-text"></h4>
+                <button class="btn btn-outline" id="btn-show-answer">Decrypt Answer</button>
+                <p id="answer-text" class="hidden glow-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
